@@ -2,7 +2,7 @@ var nomi = ["Luca", "luca", "marco", "Marco", "Paolo", "paolo", "Alessandro", "a
 var nome = prompt('Chi Sei?>_>');
 var presente = false;
 var dadi = document.getElementById('dadi');
-var getOut = document.getElementById('get-out');
+var getOut = document.getElementById('get_out');
 for (i = 0; i < nomi.length; i++) {
   if (nome == nomi[i]) {
     presente = true;
